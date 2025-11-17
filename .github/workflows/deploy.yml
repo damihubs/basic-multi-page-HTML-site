@@ -13,12 +13,11 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Upload artifact
+      - name: Upload site files
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./
