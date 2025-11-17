@@ -1,1 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f4f8;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  background: #1d4ed8;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}
+
+nav a {
+  color: white;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  color: #1d4ed8;
+}
+
+.btn {
+  background: #1d4ed8;
+  border: none;
+  padding: 12px 22px;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #1e40af;
+}
 
